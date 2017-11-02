@@ -23,11 +23,11 @@ Udacity Data Analyst Nano Degree Projects
     
     3. When I audit the Phone numbers. some of them are notin the right format. I able to corrected to the right format as follows.
 
-    '+1 905 990 9220' -> '+1-905-990-9220'
+     * '+1 905 990 9220' -> '+1-905-990-9220'
     
     Also I noticed abnormal format as follows,
     
-    'unknown''(416) 536-SODA', '+1 905 -90-4110', '1 905 891 326', '439-0000'
+     * 'unknown''(416) 536-SODA', '+1 905 -90-4110', '1 905 891 326', '439-0000'
     
     
 3. Exploring the Data
