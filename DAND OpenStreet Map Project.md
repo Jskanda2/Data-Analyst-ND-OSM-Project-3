@@ -33,13 +33,28 @@ Udacity Data Analyst Nano Degree Projects
     
        * 'unknown''(416) 536-SODA', '+1 905 -90-4110', '1 905 891 326', '439-0000'
     
-    
-
 
 ### 3. Exploring the Data
 
-#### 1. Number of Nodes.
+ #### OSM File Size
 
+
+
+
+```python
+import os
+filename = "toronto_canada.osm"
+os.path.getsize(filename)
+```
+
+
+
+
+    1232834598L
+
+
+
+#### 1. Number of Nodes.
 
 ```python
 cur.execute("SELECT COUNT(*) from nodes;")
