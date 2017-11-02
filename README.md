@@ -13,10 +13,10 @@ Udacity Data Analyst Nano Degree Projects
 
     1. When I audit the data for the Street and found that some of the street name abbreviation are not what we expected. I able to improve or   update the Stree name abbreviation to the expected name.
 
-    * 'Rd.' -> Road
-    * 'st' -> Street
-    * 'Ter' -> Terrace
-
+     * 'Rd.' -> Road
+     * 'st' -> Street
+     * 'Ter' -> Terrace
+     
     2. When I audit the Postal Code, some of them are missing a space as follows 'L1W3R2'.
 
     The right format is :'L1W 3R2'.
