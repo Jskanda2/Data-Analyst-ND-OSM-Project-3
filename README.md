@@ -203,11 +203,11 @@ pprint(rows)
 
 ### 4. References:
 
-https://discussions.udacity.com/c/nd002-data-wrangling
-http://www.tutorialspoint.com/python/
-https://www.w3schools.com/xml/xml_whatis.asp
-https://docs.python.org/2/library/csv.html
-https://www.tutorialspoint.com/sql/
+ * https://discussions.udacity.com/c/nd002-data-wrangling
+ * http://www.tutorialspoint.com/python/
+ * https://www.w3schools.com/xml/xml_whatis.asp
+ * https://docs.python.org/2/library/csv.html
+ * https://www.tutorialspoint.com/sql/
 
 
 
