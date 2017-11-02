@@ -200,8 +200,13 @@ pprint(rows)
      (u'diner', 1),
      (u'filipino', 1)]
     
+### 4. Conclusion
 
-### 4. References:
+Data wrangling is the process of transforming and mapping data from one "raw" data form into another format with the intent of making it more appropriate and valuable for a variety of downstream purposes such as analytics. In our data auditing we used only 3 regular expressions to check for certain patterns in the tags. It is a huge data set and it may have some irregular patterns also. It will take time to find and complete the task in time. 
+In the analysis of OpenStreet Map dataset, I noticed lots of human error or manual entry errors. In the process of auditing the dataset, some of the postal codes are missing the right format, some of them are missing digits and some tags are with no postal codes. Also in the address tags, streets abbreviation in place and need to be mapped to the expected name. I able to improve or update the abbreavited  street name to the expected names. Still I need to do clean up or improve on streets numbers and etc. The file size is very large and takes more time to find the inconsistant ones  and mapped to the ecpected one. Also I encountered that the phone numbers are not entered properly or not strictly followed in the program or code. I able to audit and made them to the right format. Some of them are not able to modify. 
+After auditing is complete the next step is to prepare the data to be inserted into a SQL database. To do so we parsed the elements in the OSM XML file, transforming them from document format to Tabular format. That maks possible to write to .csv files. Because of the size of the dataset, create and insert the data into the csv files took lots of time.  It was painful to wait for the process to complete. It was confused that the code is working or not. After successful execution these csv files are imported to a SQL database as tables. Finaly I able to run the SQL query in python notebook to analyse the OpenStreet Map. 
+
+### 5. References:
 
  * https://discussions.udacity.com/c/nd002-data-wrangling
  * http://www.tutorialspoint.com/python/
